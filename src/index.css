@@ -1,0 +1,68 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: Inter, sans-serif;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  animation: slide 16s infinite;
+}
+
+.backdrop-blur {
+  backdrop-filter: blur(8px); /* Adjust the blur value as needed */
+}
+
+.material-ui_menubutton {
+  font-size: 25px !important;
+  color: black !important;
+}
+
+.material-ui_menubutton:hover {
+  color: #fe2000cc !important;
+}
+
+.menu-link {
+  font-size: 20px !important;
+  text-decoration: none !important;
+  width: 150% !important;
+  padding: 5px !important;
+  cursor: pointer;
+  font-weight: 600 !important;
+  color: gray !important;
+}
+
+.menu-link:hover{
+color: #fe2000cc !important;
+}
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(0);
+  }
+  30% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(-100%);
+  }
+  55% {
+    transform: translateX(-200%);
+  }
+  75% {
+    transform: translateX(-200%);
+  }
+  80% {
+    transform: translateX(-200%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
