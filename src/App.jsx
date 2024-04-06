@@ -8,6 +8,7 @@ import FashionSection from "./pages/FashionSection";
 import AllProducts from "./pages/AllProducts";
 import OfferSection from "./pages/OfferSection";
 import NewsLetter from "./components/NewsLetter";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
       <AllProducts />
       <OfferSection />
       <NewsLetter />
+      <Footer />
     </>
   );
 };
