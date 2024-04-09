@@ -1,6 +1,13 @@
 import { Products } from "../../ItemLists";
+import Slider from 'react-slick';
 
 const AllProducts = () => {
+  var settings = {
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+  };
   return (
     <main className="w-[1200px] m-auto mt-7">
       <div className="flex justify-between">
