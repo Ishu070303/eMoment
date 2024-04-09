@@ -15,8 +15,8 @@ import locationLogo from '../assets/icons/locationlogo.svg';
 
 const Footer = () => {
   return (
-    <footer className="mt-12  bg-orangered text-white">
-      <div className="flex flex-row justify-between">
+    <footer className="mt-12 bg-orangered text-white">
+      <div className="flex sm:w-[90vw] sm:m-auto flex-row justify-between">
         <div className="text-sm">
           <h4 className="font-bold text-xl mb-3 mt-5">HELP</h4>
           {HelpFooterSection.map((item) => (
@@ -43,7 +43,7 @@ const Footer = () => {
           </div>
           <div className="mt-4"><img src={Logo} width={200} /></div>
           <div className="flex flex-col gap-3 mt-5">
-            <div className="flex w-[200px] gap-3"><img src={CallLogo} alt="logo" width={20} height={20} className="ml-4" /><p className="text-xs font-medium">+91 93375 59575</p></div>
+            <div className="flex w-[200px]  gap-3"><img src={CallLogo} alt="logo" width={20} height={20} className="ml-4" /><p className="text-xs font-medium">+91 93375 59575</p></div>
             <div className="flex w-[200px] gap-3"><img src={EmailLogo} alt="logo" width={20} height={20} className="ml-4" /><p className="text-xs font-medium">support@emoment.in</p></div>
             <div className="flex w-[200px] gap-4"><div><img src={locationLogo} alt="logo" width={70} height={70} className="ml-3 mr-4"/></div><p className="text-xs font-medium">DCB-324, 3rd Floor, DLF Cyber City, Chandaka Industrial Estate, Patia, Bhubaneswar, Odisha 751024</p></div>
           </div>

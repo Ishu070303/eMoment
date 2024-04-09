@@ -8,6 +8,11 @@
   font-family: Inter, sans-serif;
 }
 
+input:focus{
+  outline: none !important;
+  border: none;
+}
+
 .wrapper {
   width: 100%;
   display: flex;
